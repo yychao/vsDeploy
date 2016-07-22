@@ -31,6 +31,9 @@ echo.>change.log
 call :createPreBuild
 call :createVersion
 
+xcopy %M_TOOLS_PATH%\files\หตร๗\*.*              .\ /e /y
+
+
 goto end
 
 
